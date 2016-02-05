@@ -3,4 +3,7 @@
 /.tmp
 /.sass-cache
 /bower_components
-/ODP/WebContent/libs
+ODP/WebContent/libs
+ODP/WebContent/*
+!ODP/WebContent/META-INF/
+.DS_Store

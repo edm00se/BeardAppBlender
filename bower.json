@@ -1,0 +1,15 @@
+{
+  "name": "amazing demo",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "latest",
+    "fontawesome": "latest",
+    "jquery": "latest",
+    "angular": "1.4.8",
+    "angular-messages": "1.4.8",
+    "angular-sanitize": "1.4.8",
+    "ng-tags-input": "3.0.0",
+    "angular-ui-router": "^0.2.17"
+  },
+  "private": true
+}

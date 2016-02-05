@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="86257F3C00178F63" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="395a" sequence="11" unid="330319020BE1208C86257F490018E968">
+<created><datetime>20160128T223206,16-06</datetime></created>
+<modified><datetime>20160128T223215,82-06</datetime></modified>
+<revised><datetime>20160128T223215,81-06</datetime></revised>
+<lastaccessed><datetime>20160128T223215,82-06</datetime></lastaccessed>
+<addedtofile><datetime>20160128T223206,17-06</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=eric_mccormick_boldt_com/O=Bluemix</name></updatedby>
+<wassignedby><name>CN=eric_mccormick_boldt_com/O=Bluemix</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>com/eric/xsp/servlet/AbstractHTTPServlet.java</text></item>
+
+
+
+
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>com/eric/xsp/servlet/AbstractHTTPServlet.java</text></item></note>

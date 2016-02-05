@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>An Amazing Demo</title>
+    <!-- bower CSS -->
+    <link rel="stylesheet" type="text/css" href="libs/fontawesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/bootstrap/dist/css/bootstrap.min.css">
+    <!-- injector:css -->
+    <!-- endinjector -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/animations.css"> -->
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body ng-app="myApp">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="NavCtrl">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a ui-sref="about" class="navbar-brand">An Amazing Demo</a>
+        </div>
+        <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'">
+            <ul class="nav navbar-nav navbar-right">
+                <li ng-class="{active:isActive('/about')}">
+                    <a ui-sref="about" ui-sref-active="active">
+                    <i class="fa fa-question fa-lg"></i> About</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- content! -->
+    <div ui-view></div>
+
+    <!-- late loading resources for less "above the fold content", which can be render blocking -->
+    <!-- late load CSS files via CDN -->
+    <!-- bower CSS -->
+    <link rel="stylesheet" type="text/css" href="libs/ng-tags-input/ng-tags-input.min.css">
+    <link rel="stylesheet" type="text/css" href="libs/ng-tags-input/ng-tags-input.bootstrap.min.css">
+    
+    <!-- late load JS files -->
+    <script type="text/javascript" src="libs/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="libs/angular/angular.min.js"></script>
+    <script type="text/javascript" src="libs/angular-sanitize/angular-sanitize.min.js"></script>
+    <script type="text/javascript" src="libs/angular-messages/angular-messages.min.js"></script>
+    <script type="text/javascript" src="libs/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="libs/ng-tags-input/ng-tags-input.min.js"></script>
+    
+    <!-- my JS files -->
+    <!-- injector:js -->
+    <!-- endinjector -->
+</body>
+
+</html>
