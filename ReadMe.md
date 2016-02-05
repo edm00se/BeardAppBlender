@@ -53,9 +53,7 @@ The topics of incorporating task runners and embracing "web normal" assets for t
 
 ## In Action and Future
 
-I'll likely be compiling a Notes in 9 containing the abbreviated version of my session, focusing on the advanced tooling aspect. For a quick peek, here's the recording I made of the final 
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/0Wapn2MiE2c?rel=0" frameborder="0" allowfullscreen=""></iframe>
+I'll likely be compiling a Notes in 9 containing the abbreviated version of my session, focusing on the advanced tooling aspect. Feel free to check out [blog post](https://edm00se.io/self-promotion/connect-success-and-a-demo) which contains the video of a demo recapping the moving parts.
 
 ## Credits
 
