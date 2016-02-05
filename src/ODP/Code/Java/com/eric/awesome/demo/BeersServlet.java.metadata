@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="86257F3C00178F63" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="3962" sequence="30" unid="A5193D6914F1016E86257F490019BF72">
+<created><datetime>20160128T224114,10-06</datetime></created>
+<modified><datetime>20160128T225626,04-06</datetime></modified>
+<revised><datetime>20160128T225626,03-06</datetime></revised>
+<lastaccessed><datetime>20160128T225626,04-06</datetime></lastaccessed>
+<addedtofile><datetime>20160128T224114,11-06</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=eric_mccormick_boldt_com/O=Bluemix</name></updatedby>
+<wassignedby><name>CN=eric_mccormick_boldt_com/O=Bluemix</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>com/eric/awesome/demo/BeersServlet.java</text></item>
+
+
+
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>com/eric/awesome/demo/BeersServlet.java</text></item></note>
