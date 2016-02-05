@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.4" replicaid="86257F3C00178F63" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="19a" sequence="87" unid="96A7184D0C48C9C485257C4E0072CD1C">
+<created><datetime>20131227T155356,12-05</datetime></created>
+<modified><datetime>20160115T221721,19-06</datetime></modified>
+<revised><datetime dst="true">20150726T213323,43-07</datetime></revised>
+<lastaccessed><datetime>20160115T221721,19-06</datetime></lastaccessed>
+<addedtofile><datetime>20160115T221721,19-06</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Eric McCormick/O=Eric McCormick</name></updatedby>
+<wassignedby><name>CN=Eric McCormick/O=Eric McCormick</name></wassignedby>
+<item name="$Flags"><text>34567Cg~[</text></item>
+<item name="$TITLE"><text>org/openntf/xsp/model/AbstractSmartDocumentModel.java</text></item>
+<item name="$DesignerVersion"><text>8.5.3</text></item>
+
+
+<item name="$FileNames" sign="true"><text>org/openntf/xsp/model/AbstractSmartDocumentModel.java</text></item>
+
+
+</note>

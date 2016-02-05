@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view
+	xmlns:xp="http://www.ibm.com/xsp/core"
+	xmlns:xe="http://www.ibm.com/xsp/coreex">
+	<xe:restService
+		id="restService1"
+		pathInfo="beers">
+		<xe:this.service>
+			<xe:customRestService
+				contentType="application/json"
+				requestContentType="application/json">
+				<xe:this.doGet><![CDATA[${javascript:var resp = {
+	"data": [
+		{
+			'who': 'Jesse Gallagher',
+			'qty': 1.97,
+			'reasons': [
+				'assisting',
+				'writing an awesome framework',
+				'blogging'
+			]
+		},
+		{
+			'who': 'Brian Gleeson',
+			'qty': 2,
+			'reasons': [
+				'assisting with epic Bluemix situation',
+				'IBM Ireland rocks'
+			]
+		},
+		{
+			'who': 'Paul S. Withers',
+			'qty': 1,
+			'reasons': [
+				'blogging about Vaadin'
+			]
+		},
+		{
+			'who': 'David Leedy',
+			'qty': 1,
+			'reasons': [
+				'Notes in 9',
+				'generally helpful nature'
+			]
+		},
+		{
+			'who': 'Marky Roden',
+			'qty': -1,
+			'reasons': [
+				'not being at IBM Connect'
+			]
+		}
+	],
+	"error": false
+};
+return toJson(resp);}]]></xe:this.doGet>
+			</xe:customRestService>
+		</xe:this.service>
+	</xe:restService>
+</xp:view>

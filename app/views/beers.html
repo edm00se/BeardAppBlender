@@ -1,0 +1,13 @@
+<h2>A Few People to Buy 🍺 For!</h2>
+I'm amazing? {{owed.amazing}}
+<ul ng-repeat="owed in beers.debt">
+	<li>
+		{{owed.who}}
+			<span class="reasoning">
+				buy {{owed.quantity | number}} 🍺, for:
+				<ul ng-repeat="r in owed.reasons">
+					<li>{{r}}</li>
+				</ul>
+			</span>
+	</li>
+</ul>
