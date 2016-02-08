@@ -6,7 +6,7 @@ The refactored supporting project repository for the session given at IBM Connec
 
 This repo has 3 branches.
 
-1. `master` contains the slide deck in Keynote (`.key`), PowerPoint (`.pptx`), and PDF (`.pdf`) formats, along with this `README`.
+1. `master` contains the slide deck in Keynote (`.key`), PowerPoint (`.pptx`), and PDF (`.pdf`) formats, along with this `README`. The slides can also be found [on slideshare](http://www.slideshare.net/edm00se/ad1380-a-beard-an-app-a-blender).
 2. `simple` contains my home-grown tasks and bower setup, which are viewable in the Gruntfile
 3. `yo` contains the yeoman `generator-angular` version of things, with more Grunt tasks
 
