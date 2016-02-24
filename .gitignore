@@ -6,4 +6,7 @@
 ODP/WebContent/libs
 ODP/WebContent/*
 !ODP/WebContent/META-INF
+!ODP/WebContent/META-INF/*
+!ODP/WebContent/META-INF/xsp.properties
+!ODP/WebContent/META-INF/faces-config.xml
 .DS_Store
